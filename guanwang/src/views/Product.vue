@@ -2,7 +2,7 @@
  * @Author: sunj
  * @Date: 2021-09-22 18:09:36
  * @LastEditors: sunj
- * @LastEditTime: 2021-09-23 17:59:40
+ * @LastEditTime: 2021-09-23 18:49:50
  * @FilePath: /guanwang/src/views/Product.vue
 -->
 <template>
@@ -12,7 +12,7 @@
         <div class="left">
           <p class="text">新一代</p>
           <p class="text">智能营销系统</p>
-          <a class="btn" href="http://cn.mikecrm.com/88laUuQ" target='_blank'>立即体验</a>
+          <a class="btn" href="https://store.taobao.com/shop/noshop.htm" target='_blank'>立即购买</a>
         </div>
         <img src="../assets/product-content-a.png" alt="" class="img" />
         <div class="card-list">
@@ -34,7 +34,7 @@
         <div class="left">
           <p class="text">超值饭票，扫码闪付</p>
           <p class="text">开启全新的营销模式</p>
-          <a class="btn" href="http://cn.mikecrm.com/88laUuQ" target='_blank'>立即体验</a>
+          <a class="btn" href="https://store.taobao.com/shop/noshop.htm" target='_blank'>立即购买</a>
         </div>
         <img src="../assets/product-content-b.png" alt="" class="img" />
       </div>
@@ -43,7 +43,7 @@
         <div class="right">
           <p class="text">懂营销的</p>
           <p class="text">智能扫码点餐</p>
-          <a class="btn" href="http://cn.mikecrm.com/88laUuQ" target='_blank'>立即体验</a>
+          <a class="btn" href="https://store.taobao.com/shop/noshop.htm" target='_blank'>立即购买</a>
         </div>
         <img src="../assets/product-content-d.png" alt="" class="img" />
         <div class="card-list">
@@ -217,11 +217,13 @@ export default {
         position: absolute;
         top: 262px;
         right: 120px;
+        text-align: right;
         .text {
           color: #333;
           font-size: 56px;
           line-height: 84px;
           font-weight: bold;
+          text-align: right;
         }
       }
       .img {

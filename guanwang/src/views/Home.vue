@@ -2,7 +2,7 @@
  * @Author: sunj
  * @Date: 2021-09-22 18:09:36
  * @LastEditors: sunj
- * @LastEditTime: 2021-09-23 12:26:00
+ * @LastEditTime: 2021-09-23 18:49:52
  * @FilePath: /guanwang/src/views/Home.vue
 -->
 <template>
@@ -12,7 +12,7 @@
         <div class="left">
           <p class="text">时来收银</p>
           <p class="text">专注餐饮营销增长</p>
-          <a class="btn" href="http://cn.mikecrm.com/88laUuQ" target='_blank'>立即体验</a>
+          <a class="btn" href="https://store.taobao.com/shop/noshop.htm" target='_blank'>立即购买</a>
         </div>
         <img src="../assets/pos-a.png" alt="" class="img" />
       </div>
@@ -279,6 +279,7 @@ export default{
           font-size:36px;
           color: #333;
           font-weight: bold;
+          text-align: right;
         }
         .sub-title{
           height:25px;
@@ -286,6 +287,7 @@ export default{
           font-size:18px;
           color: #333;
           margin-top: 16px;
+          text-align: right;
         }
       }
       .img{

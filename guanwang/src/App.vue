@@ -2,7 +2,7 @@
  * @Author: sunj
  * @Date: 2021-09-22 18:09:36
  * @LastEditors: sunj
- * @LastEditTime: 2021-09-23 18:19:34
+ * @LastEditTime: 2021-09-23 18:29:30
  * @FilePath: /guanwang/src/App.vue
 -->
 
@@ -39,8 +39,8 @@ export default{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width:100%;
-  background-color: #f5f6f7;
-  background-color: #f5f6f7;
+  // background-color: #f5f6f7;
+  background-color: #f1f2f3;
 }
 .header-wrapper {
   width: 100%;
