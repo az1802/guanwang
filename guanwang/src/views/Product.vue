@@ -2,7 +2,7 @@
  * @Author: sunj
  * @Date: 2021-09-22 18:09:36
  * @LastEditors: sunj
- * @LastEditTime: 2021-09-23 12:27:34
+ * @LastEditTime: 2021-09-23 17:59:40
  * @FilePath: /guanwang/src/views/Product.vue
 -->
 <template>
@@ -21,19 +21,19 @@
             <div class="text">内置AI自动化营销引擎，大数据驱动门店营收增涨</div>
           </div>
           <div class="card-item">
-            <div class="title">时来AI营销大脑</div>
-            <div class="text">内置AI自动化营销引擎，大数据驱动门店营收增涨</div>
+            <div class="title">安卓7.1</div>
+            <div class="text">流畅的软件运行速度，比传统Windows收银更安全，更智能</div>
           </div>
           <div class="card-item">
-            <div class="title">时来AI营销大脑</div>
-            <div class="text">内置AI自动化营销引擎，大数据驱动门店营收增涨</div>
+            <div class="title">沉淀私域流量</div>
+            <div class="text">打通企业微信社群，帮助门店实现流量360度闭环，高效转化客户</div>
           </div>
         </div>
       </div>
       <div class="content-b">
         <div class="left">
-          <p class="text">懂营销的</p>
-          <p class="text">智能扫码点餐</p>
+          <p class="text">超值饭票，扫码闪付</p>
+          <p class="text">开启全新的营销模式</p>
           <a class="btn" href="http://cn.mikecrm.com/88laUuQ" target='_blank'>立即体验</a>
         </div>
         <img src="../assets/product-content-b.png" alt="" class="img" />
@@ -41,8 +41,8 @@
       <div class="content-c"></div>
       <div class="content-d">
         <div class="right">
-          <p class="text">新一代</p>
-          <p class="text">智能营销系统</p>
+          <p class="text">懂营销的</p>
+          <p class="text">智能扫码点餐</p>
           <a class="btn" href="http://cn.mikecrm.com/88laUuQ" target='_blank'>立即体验</a>
         </div>
         <img src="../assets/product-content-d.png" alt="" class="img" />
@@ -184,12 +184,12 @@ export default {
       .left {
         position: absolute;
         z-index: 100;
-        top: 128px;
+        top: 150px;
         left: 120px;
         .text {
           color: #333;
-          font-size: 56px;
-          line-height: 84px;
+          font-size: 36px;
+          line-height: 50px;
           font-weight: bold;
         }
       }
@@ -215,7 +215,7 @@ export default {
       overflow: visible;
       .right {
         position: absolute;
-        top: 128px;
+        top: 262px;
         right: 120px;
         .text {
           color: #333;
@@ -245,6 +245,7 @@ export default {
           height: 145px;
           padding: 32px 0 0px 32px;
           box-sizing: border-box;
+          vertical-align: bottom;
           .title {
             color: #333;
             font-size: 18px;

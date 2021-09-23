@@ -2,7 +2,7 @@
  * @Author: sunj
  * @Date: 2021-09-22 18:09:36
  * @LastEditors: sunj
- * @LastEditTime: 2021-09-23 12:14:25
+ * @LastEditTime: 2021-09-23 18:01:48
  * @FilePath: /guanwang/src/views/About.vue
 -->
 <template>
@@ -25,7 +25,7 @@
       </div>
       <div class="content-c">
         <div class="left">
-          <p class="text-a">业务覆盖</p>
+          <p class="text-a">我们的投资方</p>
         </div>
         <div class="list">
           <img class="img" src="../assets/about-content-c-1.png" alt="">

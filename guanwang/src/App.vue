@@ -2,7 +2,7 @@
  * @Author: sunj
  * @Date: 2021-09-22 18:09:36
  * @LastEditors: sunj
- * @LastEditTime: 2021-09-23 12:17:59
+ * @LastEditTime: 2021-09-23 18:19:34
  * @FilePath: /guanwang/src/App.vue
 -->
 
@@ -21,8 +21,8 @@
     <router-view />
      <div class="footer">
         <p class="name">深圳智易科技有限公司</p>
-        <p class="en-name">Made by Zhiyi with from Shenzhen.</p>
-        <p class="text">Copyright All Rights Reserved. Zhiyi Tech© 2018 |粤ICP备18038707号</p>
+        <p class="en-name">Made by Zhiyi with ❤️ from Shenzhen.</p>
+        <p class="text">Copyright All Rights Reserved. Zhiyi Tech© 2018 |<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备18038707号</a></p>
       </div>
   </div>
 </template>
@@ -39,7 +39,8 @@ export default{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width:100%;
-  background-color: #999;
+  background-color: #f5f6f7;
+  background-color: #f5f6f7;
 }
 .header-wrapper {
   width: 100%;
